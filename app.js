@@ -78,7 +78,7 @@ function checkAnswer(){
   if (cardsChosenId[0]===cardsChosenId[1]){
     cards[cardsChosenId[0]].setAttribute("src","./images/blank.png")
     cards[cardsChosenId[1]].setAttribute("src","./images/blank.png")
-    result.textContent="You have clicked same card."
+    alert("You have clicked, the same card.")
   }
 
 
